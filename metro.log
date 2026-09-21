@@ -1,0 +1,111 @@
+
+> FocusApp@0.0.1 start
+> react-native start --reset-cache
+
+
+Welcome to React Native v0.87
+Starting dev server on http://localhost:8081
+
+
+                        ▒▒▓▓▓▓▒▒
+                     ▒▓▓▓▒▒░░▒▒▓▓▓▒
+                  ▒▓▓▓▓░░░▒▒▒▒░░░▓▓▓▓▒
+                 ▓▓▒▒▒▓▓▓▓▓▓▓▓▓▓▓▓▒▒▒▓▓
+                 ▓▓░░░░░▒▓▓▓▓▓▓▒░░░░░▓▓
+                 ▓▓░░▓▓▒░░░▒▒░░░▒▓▒░░▓▓
+                 ▓▓░░▓▓▓▓▓▒▒▒▒▓▓▓▓▒░░▓▓
+                 ▓▓░░▓▓▓▓▓▓▓▓▓▓▓▓▓▒░░▓▓
+                 ▓▓▒░░▒▒▓▓▓▓▓▓▓▓▒░░░▒▓▓
+                  ▒▓▓▓▒░░░▒▓▓▒░░░▒▓▓▓▒
+                     ▒▓▓▓▒░░░░▒▓▓▓▒
+                        ▒▒▓▓▓▓▒▒
+
+
+ WARN  the transform cache was reset.
+                Welcome to Metro v0.87.1
+              Fast - Scalable - Integrated
+
+
+ INFO  Dev server ready. Press Ctrl+C to exit.
+ INFO  Interactive mode is not supported in this environment
+ BUNDLE  ./index.js ░░░░░░░░░░░░░░░░ 0% (0/1)
+transform[stderr]: (node:12832) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+transform[stderr]: (Use `node --trace-warnings ...` to show where the warning was created)
+ BUNDLE  ./index.js ▓░░░░░░░░░░░░░░░ 9% (3/5)
+transform[stderr]: (node:13396) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+transform[stderr]: (Use `node --trace-warnings ...` to show where the warning was created)
+transform[stderr]: (node:8156) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+transform[stderr]: (Use `node --trace-warnings ...` to show where the warning was created)
+ BUNDLE  ./index.js ▓▓▓▓░░░░░░░░░░░░ 25% (21/139)
+ BUNDLE  ./index.js ▓▓▓▓░░░░░░░░░░░░ 25% (54/181)
+ BUNDLE  ./index.js ▓▓▓▓▓░░░░░░░░░░░ 33% (197/341)
+ WARN  Attempted to import the module "C:\Projects\FocusApp\node_modules\react-native\src\private\featureflags\ReactNativeFeatureFlags" which is not listed in the "exports" of "C:\Projects\FocusApp\node_modules\react-native" under the requested subpath "./src/private/featureflags/ReactNativeFeatureFlags". Falling back to file-based resolution. Consider updating the call site or asking the package maintainer(s) to expose this API.
+ WARN  Attempted to import the module "C:\Projects\FocusApp\node_modules\react-native\src\private\featureflags\ReactNativeFeatureFlags" which is not listed in the "exports" of "C:\Projects\FocusApp\node_modules\react-native" under the requested subpath "./src/private/featureflags/ReactNativeFeatureFlags". Falling back to file-based resolution. Consider updating the call site or asking the package maintainer(s) to expose this API.
+ BUNDLE  ./index.js ▓▓▓▓▓▓▓▓░░░░░░░░ 51% (303/423)
+ BUNDLE  ./index.js ▓▓▓▓▓▓▓▓▓▓▓▓▓░░░ 83% (434/475)
+ BUNDLE  ./index.js ▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░ 90% (485/511)
+ BUNDLE  ./index.js ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░ 99% (575/604)
+ BUNDLE  ./index.js ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░ 99% (639/640)
+ BUNDLE  ./index.js 
+ WARN  Attempted to import the module "C:\Projects\FocusApp\node_modules\react-native\src\private\featureflags\ReactNativeFeatureFlags" which is not listed in the "exports" of "C:\Projects\FocusApp\node_modules\react-native" under the requested subpath "./src/private/featureflags/ReactNativeFeatureFlags". Falling back to file-based resolution. Consider updating the call site or asking the package maintainer(s) to expose this API.
+ WARN  Attempted to import the module "C:\Projects\FocusApp\node_modules\react-native\src\private\featureflags\ReactNativeFeatureFlags" which is not listed in the "exports" of "C:\Projects\FocusApp\node_modules\react-native" under the requested subpath "./src/private/featureflags/ReactNativeFeatureFlags". Falling back to file-based resolution. Consider updating the call site or asking the package maintainer(s) to expose this API.
+ WARN  Attempted to import the module "C:\Projects\FocusApp\node_modules\react-native\src\private\featureflags\ReactNativeFeatureFlags" which is not listed in the "exports" of "C:\Projects\FocusApp\node_modules\react-native" under the requested subpath "./src/private/featureflags/ReactNativeFeatureFlags". Falling back to file-based resolution. Consider updating the call site or asking the package maintainer(s) to expose this API.
+ WARN  Attempted to import the module "C:\Projects\FocusApp\node_modules\react-native\src\private\featureflags\ReactNativeFeatureFlags" which is not listed in the "exports" of "C:\Projects\FocusApp\node_modules\react-native" under the requested subpath "./src/private/featureflags/ReactNativeFeatureFlags". Falling back to file-based resolution. Consider updating the call site or asking the package maintainer(s) to expose this API.
+ WARN  Attempted to import the module "C:\Projects\FocusApp\node_modules\react-native\src\private\featureflags\ReactNativeFeatureFlags" which is not listed in the "exports" of "C:\Projects\FocusApp\node_modules\react-native" under the requested subpath "./src/private/featureflags/ReactNativeFeatureFlags". Falling back to file-based resolution. Consider updating the call site or asking the package maintainer(s) to expose this API.
+ WARN  Attempted to import the module "C:\Projects\FocusApp\node_modules\react-native\src\private\featureflags\ReactNativeFeatureFlags" which is not listed in the "exports" of "C:\Projects\FocusApp\node_modules\react-native" under the requested subpath "./src/private/featureflags/ReactNativeFeatureFlags". Falling back to file-based resolution. Consider updating the call site or asking the package maintainer(s) to expose this API.
+ WARN  Attempted to import the module "C:\Projects\FocusApp\node_modules\react-native\src\private\featureflags\ReactNativeFeatureFlags" which is not listed in the "exports" of "C:\Projects\FocusApp\node_modules\react-native" under the requested subpath "./src/private/featureflags/ReactNativeFeatureFlags". Falling back to file-based resolution. Consider updating the call site or asking the package maintainer(s) to expose this API.
+ WARN  Attempted to import the module "C:\Projects\FocusApp\node_modules\react-native\src\private\featureflags\ReactNativeFeatureFlags" which is not listed in the "exports" of "C:\Projects\FocusApp\node_modules\react-native" under the requested subpath "./src/private/featureflags/ReactNativeFeatureFlags". Falling back to file-based resolution. Consider updating the call site or asking the package maintainer(s) to expose this API.
+ WARN  Attempted to import the module "C:\Projects\FocusApp\node_modules\react-native\src\private\featureflags\ReactNativeFeatureFlags" which is not listed in the "exports" of "C:\Projects\FocusApp\node_modules\react-native" under the requested subpath "./src/private/featureflags/ReactNativeFeatureFlags". Falling back to file-based resolution. Consider updating the call site or asking the package maintainer(s) to expose this API.
+ WARN  Attempted to import the module "C:\Projects\FocusApp\node_modules\react-native\src\private\featureflags\ReactNativeFeatureFlags" which is not listed in the "exports" of "C:\Projects\FocusApp\node_modules\react-native" under the requested subpath "./src/private/featureflags/ReactNativeFeatureFlags". Falling back to file-based resolution. Consider updating the call site or asking the package maintainer(s) to expose this API.
+ WARN  Attempted to import the module "C:\Projects\FocusApp\node_modules\react-native\src\private\featureflags\ReactNativeFeatureFlags" which is not listed in the "exports" of "C:\Projects\FocusApp\node_modules\react-native" under the requested subpath "./src/private/featureflags/ReactNativeFeatureFlags". Falling back to file-based resolution. Consider updating the call site or asking the package maintainer(s) to expose this API.
+ WARN  Attempted to import the module "C:\Projects\FocusApp\node_modules\react-native\src\private\featureflags\ReactNativeFeatureFlags" which is not listed in the "exports" of "C:\Projects\FocusApp\node_modules\react-native" under the requested subpath "./src/private/featureflags/ReactNativeFeatureFlags". Falling back to file-based resolution. Consider updating the call site or asking the package maintainer(s) to expose this API.
+ WARN  Attempted to import the module "C:\Projects\FocusApp\node_modules\react-native\src\private\featureflags\ReactNativeFeatureFlags" which is not listed in the "exports" of "C:\Projects\FocusApp\node_modules\react-native" under the requested subpath "./src/private/featureflags/ReactNativeFeatureFlags". Falling back to file-based resolution. Consider updating the call site or asking the package maintainer(s) to expose this API.
+ WARN  Attempted to import the module "C:\Projects\FocusApp\node_modules\react-native\src\private\featureflags\ReactNativeFeatureFlags" which is not listed in the "exports" of "C:\Projects\FocusApp\node_modules\react-native" under the requested subpath "./src/private/featureflags/ReactNativeFeatureFlags". Falling back to file-based resolution. Consider updating the call site or asking the package maintainer(s) to expose this API.
+ ERROR  Error: Unable to resolve module ./App from C:\Projects\FocusApp\index.js: 
+
+None of these files exist:
+  * App(.android.js|.native.js|.js|.android.jsx|.native.jsx|.jsx|.android.json|.native.json|.json|.android.ts|.native.ts|.ts|.android.tsx|.native.tsx|.tsx)
+  * App
+  4 |
+  5 | import { AppRegistry } from 'react-native';
+> 6 | import App from './App';
+    |                  ^
+  7 | import { name as appName } from './app.json';
+  8 |
+  9 | AppRegistry.registerComponent(appName, () => App);
+    at ModuleResolver.resolveDependency (C:\Projects\FocusApp\node_modules\metro\src\node-haste\DependencyGraph\ModuleResolution.js:145:15)
+    at DependencyGraph.resolveDependency (C:\Projects\FocusApp\node_modules\metro\src\node-haste\DependencyGraph.js:203:43)
+    at C:\Projects\FocusApp\node_modules\metro\src\lib\transformHelpers.js:165:21
+    at resolveDependencies (C:\Projects\FocusApp\node_modules\metro\src\DeltaBundler\buildSubgraph.js:43:25)
+    at visit (C:\Projects\FocusApp\node_modules\metro\src\DeltaBundler\buildSubgraph.js:81:30)
+    at async Promise.all (index 604)
+    at async buildSubgraph (C:\Projects\FocusApp\node_modules\metro\src\DeltaBundler\buildSubgraph.js:105:3)
+    at async Graph._buildDelta (C:\Projects\FocusApp\node_modules\metro\src\DeltaBundler\Graph.js:163:22)
+    at async Graph.traverseDependencies (C:\Projects\FocusApp\node_modules\metro\src\DeltaBundler\Graph.js:50:19)
+    at async DeltaCalculator._getChangedDependencies (C:\Projects\FocusApp\node_modules\metro\src\DeltaBundler\DeltaCalculator.js:201:42)
+ ERROR  Error: Unable to resolve module ./App from C:\Projects\FocusApp\index.js: 
+
+None of these files exist:
+  * App(.android.js|.native.js|.js|.android.jsx|.native.jsx|.jsx|.android.json|.native.json|.json|.android.ts|.native.ts|.ts|.android.tsx|.native.tsx|.tsx)
+  * App
+  4 |
+  5 | import { AppRegistry } from 'react-native';
+> 6 | import App from './App';
+    |                  ^
+  7 | import { name as appName } from './app.json';
+  8 |
+  9 | AppRegistry.registerComponent(appName, () => App);
+    at ModuleResolver.resolveDependency (C:\Projects\FocusApp\node_modules\metro\src\node-haste\DependencyGraph\ModuleResolution.js:145:15)
+    at DependencyGraph.resolveDependency (C:\Projects\FocusApp\node_modules\metro\src\node-haste\DependencyGraph.js:203:43)
+    at C:\Projects\FocusApp\node_modules\metro\src\lib\transformHelpers.js:165:21
+    at resolveDependencies (C:\Projects\FocusApp\node_modules\metro\src\DeltaBundler\buildSubgraph.js:43:25)
+    at visit (C:\Projects\FocusApp\node_modules\metro\src\DeltaBundler\buildSubgraph.js:81:30)
+    at async Promise.all (index 604)
+    at async buildSubgraph (C:\Projects\FocusApp\node_modules\metro\src\DeltaBundler\buildSubgraph.js:105:3)
+    at async Graph._buildDelta (C:\Projects\FocusApp\node_modules\metro\src\DeltaBundler\Graph.js:163:22)
+    at async Graph.traverseDependencies (C:\Projects\FocusApp\node_modules\metro\src\DeltaBundler\Graph.js:50:19)
+    at async DeltaCalculator._getChangedDependencies (C:\Projects\FocusApp\node_modules\metro\src\DeltaBundler\DeltaCalculator.js:201:42)
+ WARN  Attempted to import the module "C:\Projects\FocusApp\node_modules\react-native\src\private\featureflags\ReactNativeFeatureFlags" which is not listed in the "exports" of "C:\Projects\FocusApp\node_modules\react-native" under the requested subpath "./src/private/featureflags/ReactNativeFeatureFlags". Falling back to file-based resolution. Consider updating the call site or asking the package maintainer(s) to expose this API.
+ WARN  Attempted to import the module "C:\Projects\FocusApp\node_modules\react-native\src\private\featureflags\ReactNativeFeatureFlags" which is not listed in the "exports" of "C:\Projects\FocusApp\node_modules\react-native" under the requested subpath "./src/private/featureflags/ReactNativeFeatureFlags". Falling back to file-based resolution. Consider updating the call site or asking the package maintainer(s) to expose this API.
+ WARN  Attempted to import the module "C:\Projects\FocusApp\node_modules\react-native\src\private\featureflags\ReactNativeFeatureFlags" which is not listed in the "exports" of "C:\Projects\FocusApp\node_modules\react-native" under the requested subpath "./src/private/featureflags/ReactNativeFeatureFlags". Falling back to file-based resolution. Consider updating the call site or asking the package maintainer(s) to expose this API.
+ ERROR  [timeout] connection terminated with Device for app='com.focusapp' on device='sdk_gphone16k_x86_64 - 17 - API 37' after not responding for 60 seconds.

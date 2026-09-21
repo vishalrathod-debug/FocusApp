@@ -1,0 +1,52 @@
+// === safe afterEvaluate helper (insert near top of android/build.gradle) ===
+ext.safeAfterEvaluate = { Project p, Closure c ->
+    if (!p.getState().executed) {
+        p.afterEvaluate { c.call(p) }
+    } else {
+        // project already evaluated — run closure immediately
+        c.call(p)
+    }
+}
+
+
+buildscript {
+    ext {
+        buildToolsVersion = "35.0.0"
+        minSdkVersion = 24
+        compileSdkVersion = 35
+        targetSdkVersion = 35
+        ndkVersion = "26.1.10909125"
+        kotlinVersion = "2.0.21"
+    }
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath("com.android.tools.build:gradle")
+        classpath("com.facebook.react:react-native-gradle-plugin")
+        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin")
+    }
+}
+
+apply plugin: "com.facebook.react.rootproject"
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+// Pass c++_shared directly to autolinked Native C++ dependencies
+subprojects {
+    // use safeAfterEvaluate to avoid "already evaluated" lifecycle error
+    safeAfterEvaluate(project, { p ->
+        p.tasks.matching { it.name.contains("externalNativeBuild") || it.name.contains("generateJsonModel") }
+         .configureEach { task ->
+             if (task.hasProperty("arguments")) {
+                 task.arguments.add("-DANDROID_STL=c++_shared")
+             }
+         }
+    })
+}
