@@ -1,0 +1,75 @@
+{
+  "id": "7ade2eda-f4c4-4cf3-ac00-7c4996a9959d",
+  "createdAt": "2026-09-22T06:36:32.482Z",
+  "runtimeVersion": "exposdk:57.0.0",
+  "launchAsset": {
+    "key": "bundle-1790058992482-1801",
+    "contentType": "application/javascript",
+    "url": "https://f6b63db5-2da0-4ff8-9c4d-82bb9bc79906-00-391k1g2ux4nrp.sisko.replit.dev/1790058992482-1801/_expo/static/js/android/bundle.js"
+  },
+  "assets": [],
+  "metadata": {},
+  "extra": {
+    "eas": {},
+    "expoClient": {
+      "name": "FocusApp",
+      "slug": "focus-app",
+      "version": "1.1.0",
+      "orientation": "portrait",
+      "icon": "./assets/images/icon.png",
+      "scheme": "focus-app",
+      "userInterfaceStyle": "dark",
+      "ios": {
+        "supportsTablet": false
+      },
+      "android": {
+        "adaptiveIcon": {
+          "foregroundImage": "./assets/images/icon.png",
+          "backgroundColor": "#06111F",
+          "foregroundImageUrl": "http://127.0.0.1:23217/assets/./assets/images/icon.png"
+        },
+        "package": "com.anonymous.focusapp"
+      },
+      "web": {
+        "favicon": "./assets/images/icon.png"
+      },
+      "plugins": [
+        "expo-router"
+      ],
+      "experiments": {
+        "typedRoutes": true,
+        "reactCompiler": true
+      },
+      "_internal": {
+        "isDebug": false,
+        "projectRoot": "/home/runner/workspace/artifacts/focus-app",
+        "dynamicConfigPath": {},
+        "staticConfigPath": "/home/runner/workspace/artifacts/focus-app/app.json",
+        "packageJsonPath": "/home/runner/workspace/artifacts/focus-app/package.json"
+      },
+      "sdkVersion": "57.0.0",
+      "platforms": [
+        "ios",
+        "android",
+        "web"
+      ],
+      "extra": {
+        "router": {}
+      },
+      "iconUrl": "http://127.0.0.1:23217/assets/./assets/images/icon.png",
+      "hostUri": "f6b63db5-2da0-4ff8-9c4d-82bb9bc79906-00-391k1g2ux4nrp.sisko.replit.dev/android"
+    },
+    "expoGo": {
+      "debuggerHost": "f6b63db5-2da0-4ff8-9c4d-82bb9bc79906-00-391k1g2ux4nrp.sisko.replit.dev/android",
+      "developer": {
+        "tool": "expo-cli",
+        "projectRoot": "/home/runner/workspace/artifacts/focus-app"
+      },
+      "packagerOpts": {
+        "dev": false
+      },
+      "mainModuleName": "artifacts/focus-app/node_modules/expo-router/entry"
+    },
+    "scopeKey": "@anonymous/focus-app-9b46fcfb-a293-47b7-81fc-9965316725b4"
+  }
+}
